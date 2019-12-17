@@ -1,5 +1,6 @@
 import {
     backgroundPlugInId,
+    borderRadiusPlugInId,
     colorPlugInId,
     heightPluginId,
     widthPluginId,
@@ -31,6 +32,11 @@ export default {
             title: "Width",
             type: "string",
             formControlId: widthPluginId,
+        },
+        borderRadius: {
+            title: "Border radius",
+            type: "string",
+            formControlId: borderRadiusPlugInId,
         },
     },
 };

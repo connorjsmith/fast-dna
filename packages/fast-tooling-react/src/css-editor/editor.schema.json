@@ -28,6 +28,11 @@
                     "title": "Width",
                     "type": "string",
                     "formControlId": "width"
+                },
+                "borderRadius": {
+                    "title": "Border radius",
+                    "type": "string",
+                    "formControlId": "borderRadius"
                 }
             }
         }
